@@ -1,0 +1,127 @@
+* {
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    margin: 44px 0 144px 76px;
+}
+
+.link-header {
+    margin-right: 23px;
+    color: #989D9C;
+    font-weight: 600;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.link-header:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+.btn-header {
+    background: #665AE1;
+    color: white;
+    border-radius: 20.5px;
+    padding: 6px 22px;
+    border: none;
+    font-size: 24px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.btn-header:hover {
+    transform: scale(1.1);
+    background: #37317a;
+}
+
+.img-logo {
+    width: 568px;
+    margin-left: 125px;
+    display: inline-block;
+}
+
+.content {
+    margin-left: 86px;
+    display: inline-block;
+    width: 515px;
+}
+
+.title {
+    font-weight: 500;
+    font-size: 58px;
+    line-height: 71px;
+    color: #515151;
+    
+}
+
+.title-weCare {
+    font-weight: 900;
+    font-size: 100px;
+    line-height: 122px;
+    display: block;
+}
+
+.paragraph {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #848484;
+    margin: 32px 0 55px 0;
+}
+
+.btn-content {
+    margin-top: 65px;
+    margin-bottom: 100px;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    background: #ADFF00;
+    border-radius: 35px;
+    padding: 13px 46px;
+    border: none;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1300px) {
+    
+    header, .paragraph {
+        display: none;
+    }
+
+    .container {
+        width: 350px;
+        height: auto;
+        margin: auto;
+        text-align: center;
+    }
+
+    .img-logo {
+        margin: auto;
+        display: block;
+        margin-top: 150px;
+        width: 80vw;     
+    }
+
+    .content {
+        display: block;
+        margin: auto;
+        width: 80vw;
+        margin-top: 24px;
+    }
+
+    .title {
+        font-size: 8vw;
+        line-height: 37px;
+    }
+    
+    .title-weCare {
+        font-size: 12vw;
+        line-height: 61px;
+        display: block;
+    }
+
+}
